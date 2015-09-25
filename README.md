@@ -98,7 +98,7 @@ The memeber method analyzePredictRevenue() takes input and out files as input pa
 
 **** General idea ****
 
-My idea to solve this problem is as following. First study the behaviour of each subscription type. More specifically, the number of subscriptions of each type in each year. The attached file "plot-revenue-of-each-type-vs-year.pdf" is a plot of such information. The horizontal axis is year, and the vertical axis is number of each subscription type in the corresponding year. From the plot, we can draw the following two interesting conclusions:
+My idea to solve this problem is as following. First study the behaviour of each subscription type. More specifically, the number of subscriptions of each type in each year. The attached file "plot-number-of-each-type-vs-year.pdf" is a plot of such information. The horizontal axis is year, and the vertical axis is number of each subscription type in the corresponding year. From the plot, we can draw the following two interesting conclusions:
 
     (a) Different subscription types behave very differently as a function of year. So we need to consider them seperately when making predictions of the revenue.
     (b) The number of daily, monthly, and one-off subscriptions fall to zero after some year. The only subscription with non-zero number after year 2000 is the yearly subscription. So we only need to consider yearly subscriptions when making predictions of the revenue. This simplies our work considerably. 
