@@ -3,7 +3,7 @@
 This is the solution to the MindSumo challenge for Capital One: Use transaction data to categorize clients:
 https://www.mindsumo.com/contests/credit-card-transactions
 
-I wrote five Java classes to solve this project. Three of these classes solves the three questions (including the bonus questions) respectively. Two other classes are helper classes. The classes are explained below. The three questions are solved with time and space complexity O(n), where n is the number of subscriptions. It took roughly 8 seconds to run all the codes for all the questions in my laptop.
+Five Java classes were written to solve this project. Three of these classes solves the three questions (including the bonus questions) respectively. Two other classes are helper classes. The classes are explained below. The three questions are solved with time and space complexity O(n), where n is the number of subscriptions. It took roughly 8 seconds to run all the codes for all the questions in my laptop.
 
 *****************************
 **  1. The class Solution  **
@@ -32,7 +32,7 @@ The algorithm of the method subscriptionType() is:
 
 This class solves the basic question: output a list of subscription IDs, their subscription type (daily, monthly, yearly, one-off), and the duration of their subscription. 
 
-The memember method analyzeSubscriptions takes the input and out files as input parameters. This method creates an output file "outputSubscriptions.csv" which contains the list required by the project question. In the output file, each line is a subscription, which contains the subscription ID, the subscription type, and the duration. 
+The memember method analyzeSubscriptions takes the input and out files as input parameters. This method creates an output file "outputSubscriptions.csv" (attached) which contains the list required by the project question. In the output file, each line is a subscription, which contains the subscription ID, the subscription type, and the duration. 
 
 The first few lines in the output file are:
 
@@ -59,7 +59,7 @@ The algorithm of the method analyzeSubscriptions() is:
 
 This class solves the first bonus question: Give annual revenue numbers for all years between 1966 and 2014. Which years had the highest revenue growth, and highest revenue loss?
 
-The memeber method analyzeRevenues() takes input and out files as input parameters. This method creates an output file "outputRevenues.csv" which contains the data required by the project question. In the output file, each line contains the year and the annual revenue of that year. At the end of the output file, there are also years which had the highest revenue growth, and years which had the highest revenue loss. 
+The memeber method analyzeRevenues() takes input and out files as input parameters. This method creates an output file "outputRevenues.csv"  (attached)  which contains the data required by the project question. In the output file, each line contains the year and the annual revenue of that year. At the end of the output file, there are also years which had the highest revenue growth, and years which had the highest revenue loss. 
 
 The first and last few lines of the output file are:
 
@@ -94,7 +94,7 @@ The algorithm of the method analyzeSubscriptions() is:
 
 This class solves the second bonus question: Predict annual revenue for year 2015 (based on historical retention and new subscribers). The answer I got is that the predicted annual revenue for year 2015 is around 888305.5 (USD).
 
-The memeber method analyzePredictRevenue() takes input and out files as input parameters. This method creates two output files: "outputNumSubsEachType.csv" and "outputPredictRevenue.csv". These two output files will be explained later.
+The memeber method analyzePredictRevenue() takes input and out files as input parameters. This method creates two output files: "outputNumSubsEachType.csv" and "outputPredictRevenue.csv"  (attached) . These two output files will be explained later.
 
 **** General idea ****
 
