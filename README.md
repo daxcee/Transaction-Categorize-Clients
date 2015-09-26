@@ -37,12 +37,14 @@ The memember method analyzeSubscriptions takes the input and out files as input 
 The first few lines in the output file are:
 
 -- File starts --
+
 Subscription ID, Subscription type, Duration
 3159, monthly, 85 months
 3160, monthly, 68 months
 3164, one-off, 1 time
 3165, daily, 31 days
 ... ...
+
 -- File ends --
 
 This method also returns a HashMap which stores all the subscriptions. Each entry is a subscription. The key is the subscription ID, and the value is an object of Subscription of this subscription. The object conatins all information about this subscription, like subscription type, duration, start and end date. This HashMap will be used in other classes.
@@ -64,6 +66,7 @@ The memeber method analyzeRevenues() takes input and out files as input paramete
 The first and last few lines of the output file are:
 
 -- File starts --
+
 Year, Annual revenue
 1966, 36431250
 1967, 55206230
@@ -74,6 +77,7 @@ Years had the highest revenue growth:
 1967
 Years had the highest revenue loss:
 1991
+
 -- File ends --
 
 The algorithm of the method analyzeSubscriptions() is:
@@ -140,6 +144,7 @@ The output file "outputNumSubsEachType.csv" contains the number of each subscrip
 The first and last few lines of the output file "outputNumSubsEachType.csv" are:
 
 -- File starts --
+
 Year, # of daily subs in this year, # of monthly subs in this year, # of yearly subs in this year, # of one-off subs in this year
 1966, 7277, 2254, 334, 179
 1967, 7349, 6096, 636, 189
@@ -148,6 +153,7 @@ Year, # of daily subs in this year, # of monthly subs in this year, # of yearly 
 ... ...
 Average amount of daily subs, Average amount of monthly subs, Average amount of yearly subs, Average amount of one-off subs
 3658, 3706, 3709, 3736
+
 -- File ends --
 
 The output file "outputPredictRevenue.csv" contains the number of three different yearly subscription types for each year (see explanation below), and the final answer of this question: the predicted annual revenue for year 2015.
@@ -157,6 +163,7 @@ The three different yearly subscription types for a certain year are:
 The first and last few lines of the output file "outputNumSubsEachType.csv" are:
 
 -- File starts --
+
 Year, # of subs started in this year, # of subs ended in this year, # of yearly through this year
 1966, 334, 0, 0, 334
 1967, 302, 0, 334, 636
@@ -165,5 +172,6 @@ Year, # of subs started in this year, # of subs ended in this year, # of yearly 
 ... ...
 Predicted annual revenue for year 2015:
 888305.5
+
 -- File ends --
 
