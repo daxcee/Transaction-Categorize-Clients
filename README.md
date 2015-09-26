@@ -39,11 +39,17 @@ The first few lines in the output file are:
 -- File starts --
 
 Subscription ID, Subscription type, Duration
+
 3159, monthly, 85 months
+
 3160, monthly, 68 months
+
 3164, one-off, 1 time
+
 3165, daily, 31 days
+
 ... ...
+
 
 -- File ends --
 
@@ -68,14 +74,23 @@ The first and last few lines of the output file are:
 -- File starts --
 
 Year, Annual revenue
+
 1966, 36431250
+
 1967, 55206230
+
 1968, 68890920
+
 1969, 77045920
+
 ... ...
+
 Years had the highest revenue growth:
+
 1967
+
 Years had the highest revenue loss:
+
 1991
 
 -- File ends --
@@ -146,12 +161,19 @@ The first and last few lines of the output file "outputNumSubsEachType.csv" are:
 -- File starts --
 
 Year, # of daily subs in this year, # of monthly subs in this year, # of yearly subs in this year, # of one-off subs in this year
+
 1966, 7277, 2254, 334, 179
+
 1967, 7349, 6096, 636, 189
+
 1968, 8140, 9424, 923, 194
+
 1969, 6949, 12539, 1222, 152
+
 ... ...
+
 Average amount of daily subs, Average amount of monthly subs, Average amount of yearly subs, Average amount of one-off subs
+
 3658, 3706, 3709, 3736
 
 -- File ends --
@@ -165,11 +187,17 @@ The first and last few lines of the output file "outputNumSubsEachType.csv" are:
 -- File starts --
 
 Year, # of subs started in this year, # of subs ended in this year, # of yearly through this year
+
 1966, 334, 0, 0, 334
+
 1967, 302, 0, 334, 636
+
 1968, 287, 0, 636, 923
+
 1969, 299, 6, 917, 1222
+
 ... ...
+
 Predicted annual revenue for year 2015:
 888305.5
 
